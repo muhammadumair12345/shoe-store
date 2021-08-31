@@ -1,0 +1,31 @@
+.justify-content-between{
+	display: flex;
+	justify-content: space-between;
+	border-bottom:2px solid white;
+
+}
+#bg-image-home{
+	background-image: url("images/bgimg1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+#bg-image-buy{
+	background-image: url("images/bgimg2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+img{
+	height: 250px;
+}
+.btn{
+	width:100px;
+}
+@media screen and (max-width: 720px){
+.justify-content-between{
+	flex-direction: column;
+	text-align: center;
+}
+}

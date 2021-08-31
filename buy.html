@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Buy Shoes</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="bootstrap\bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand bg-danger navbar-dark text-uppercase sticky-top justify-content-between">
+	<h2 class="text-white">Shoe Store</h2>
+	<ul class="navbar-nav">
+		<li class="nav-item">
+			<a href="index.html" class="nav-link">Home</a>
+		</li>
+		<li class="nav-item">
+			<a href="products.html" class="nav-link">Products</a>
+		</li>
+		<li class="nav-item">
+			<a href="history.html" class="nav-link">History</a>
+		</li>
+	</ul>
+</nav>
+<div class="container p-3 bg-dark" style="border-radius: 15px">
+	<div class="jumbotron" id="bg-image-buy">
+	</div>
+	<form action="#" role="form" class="p-4 text-danger" name="myform" onsubmit="validation(document.forms['myform']['name'])">
+		<div class="form-group">
+			<label for="name">Name</label>
+			<input type="text" name="name" id="name" placeholder="Enter your name" class="form-control">	
+		</div>
+		<div class="form-group">
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="Enter Email" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="city">City</label>
+			<input type="text" name="city" id="city" placeholder="Enter your city" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="address">Address</label>
+			<input type="text" name="address" id="address" placeholder="Enter your address" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="phone">Contact No.</label>
+			<input type="phone" name="phone" id="phone" placeholder="Enter your contact number" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="cdate">Date</label>
+			<input type="date" name="cdate" id="cdate" class="form-control">
+		</div>
+		<input type="submit" class="btn btn-danger" value="Submit">
+	</form>
+</div>
+</body>
+</html>
